@@ -1,0 +1,1561 @@
+<!DOCTYPE html>
+<!-- saved from url=(0053)https://sinhvien.huce.edu.vn/sinh-vien-dang-nhap.html -->
+<html class="k-webkit k-webkit153"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, minimum-scale=1.0, initial-scale=1.0, maximum-scale=1.0">
+    <title>Đăng nhập</title>
+        <link rel="shortcut icon" href="https://sinhvien.huce.edu.vn/Content/AConfig/images/favicon.png">
+    <link href="./index/css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="./index/bootstrap.min.css">
+    <script src="./index/jquery.min.js.download"></script>
+    <link rel="stylesheet" type="text/css" href="./index/style.css">
+    <script src="./index/bootstrap.bundle.min.js.download"></script>
+
+    <style>
+        .callnow {
+            position: fixed;
+            bottom: 100px;
+            right: 24px;
+            height: 70px;
+        }
+
+        #footer-hotline {
+            text-align: center;
+            padding: 15px 0;
+        }
+    </style>
+
+
+   
+</head>
+<body>
+    <input id="UID" name="UID" type="hidden" value="79">
+    <main class="wapper-login">
+        <header class="header" style="background: #002a5c;">
+                <div class="container">
+                    <div class="logo-login-main text-center">
+                            <a href="https://sinhvien.huce.edu.vn/"><img src="./index/logo-dhxd-20230421015740-e.png"></a>
+                    </div>
+                </div>
+            <div style="clear:both;"></div>
+        </header>
+        <div>
+            
+
+<link rel="stylesheet" href="./index/font-awesome.min.css">
+<script src="./index/aes.js.download"></script>
+<script src="./index/pbkdf2.js.download"></script>
+<script src="./index/jquery.cookie.js.download"></script>
+<script src="./index/jQuery.flashMessage.js.download"></script>
+
+<style>
+    .box-captcha input {
+        border: 1px solid #ddd !important;
+        border-radius: 5px;
+        width: 100px !important;
+    }
+
+    .box-captcha a {
+        left: 110px !important;
+    }
+
+    .box-captcha img {
+        margin-top: 0px !important;
+        left: 145px !important;
+    }
+
+    .item-lien-ket {
+        padding: 20px;
+        border-radius: 23px;
+        background: rgb(255 255 255 / 0.9);
+        width: calc( 50% - 16px);
+        margin: 8px;
+        height: 140px;
+        position: relative;
+        overflow: hidden;
+    }
+
+        .item-lien-ket img {
+            width: 22px !important;
+            height: 22px !important;
+            margin: 10px auto;
+            display: flex;
+            align-items: center;
+        }
+
+        .item-lien-ket a {
+            width: 100%;
+            height: 60px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 16px;
+            text-transform: uppercase;
+            font-weight: 700;
+            text-align: center;
+            color: #172759;
+        }
+
+
+    .search-bar {
+        width: 280px;
+        margin-left: 15px;
+    }
+
+        .search-bar form {
+            float: left;
+            width: 100%;
+            position: relative;
+        }
+
+            .search-bar form input {
+                width: 100%;
+                background-color: #fff;
+                height: 38px;
+                color: #000000;
+                font-size: 12px;
+                border: 1px solid #e6ecf0;
+                padding: 0 15px;
+                border-radius: 20px !important;
+                outline: none;
+            }
+
+            .search-bar form button {
+                position: absolute;
+                top: 0;
+                right: 0;
+                background-color: transparent;
+                width: 38px;
+                height: 100%;
+                border: 0;
+            }
+
+                .search-bar form button i {
+                    color: #878787;
+                    font-size: 16px;
+                }
+
+    .login-with-social-btn:before {
+        content: "";
+        position: absolute;
+        z-index: 2;
+        top: 0px;
+        left: 44px;
+        height: 48px;
+        width: 1px;
+        background: linear-gradient(90deg,#aaa 50%,#f0f0f0 30%);
+    }
+
+    .login-with-social-btn {
+        transition: background-color .3s, box-shadow .3s;
+        width: 100%;
+        position: relative;
+        padding: 12px 30px 12px 62px;
+        border: none;
+        border-radius: 3px;
+        box-shadow: 0 -1px 0 rgba(0, 0, 0, .04), 0 1px 1px rgba(0, 0, 0, .25);
+        color: #222;
+        font-size: 16px;
+        font-weight: 400;
+        font-family: Roboto,sans-serif;
+        background-color: white;
+        background-repeat: no-repeat;
+        background-position: 12px center;
+        margin-top: 10px;
+    }
+
+        .login-with-social-btn:hover {
+            box-shadow: 0 -1px 0 rgba(0, 0, 0, .04), 0 2px 4px rgba(0, 0, 0, .25);
+        }
+
+        .login-with-social-btn:active {
+            background-color: #eeeeee;
+            background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABUAAAAVCAYAAACpF6WWAAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAAOxAAADsQBlSsOGwAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAABRSURBVDiNY2CgAWBkYGBg+BSg9J+QQr4N9xjrdzEQVNfoxsDIRA2XoYNRQ0cNHQqAkYGBgYFhyXuCOYUhRpDx/07COYrRfTRHjRo6NAylCQAAN14NI2Qzu4kAAAAASUVORK5CYII=');
+        }
+
+        .login-with-social-btn:focus {
+            outline: none;
+            box-shadow: 0 -1px 0 rgba(0, 0, 0, .04), 0 2px 4px rgba(0, 0, 0, .25), 0 0 0 3px #c8dafc;
+        }
+
+    .login-with-microsoft-btn {
+        background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABUAAAAVCAYAAACpF6WWAAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAAOxAAADsQBlSsOGwAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAABRSURBVDiNY2CgAWBkYGBg+BSg9J+QQr4N9xjrdzEQVNfoxsDIRA2XoYNRQ0cNHQqAkYGBgYFhyXuCOYUhRpDx/07COYrRfTRHjRo6NAylCQAAN14NI2Qzu4kAAAAASUVORK5CYII=') !important;
+    }
+
+    .login-with-google-btn {
+        background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABUAAAAVCAMAAACeyVWkAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAACu1BMVEX///////7//Pz//f3++fj//v7//v397Ov2rKbwe3HtY1fsWk3tYVXweG71qKL96un0oZrrSjzoNSbpOCnpPS/qPzHpPi/pOCrqSDr1o5z/+/v++fnvdGnoMyTqQTPrSTvqRjjpPC3qPzDrSDvqRTfnKBjzmpP//fzoNCXrSDrpOSvpPjDtW0/uaV7tXE/vb2T98vHzm53oNCTqRDfpOSrvdmv61tP++vr++/r72NXvbmTua2D++/v//OTxeSnpOjbqRTnpOSnykIj+/v/9/v/+///9/P389/j94ZD8vgD1kR7pOyvuaWL///38z077twD9yAf2mgX6zr///Pvp8f7P4PzT4/3S4vzS4fzS4v3T4/zt9P7//vz8xy77ugD7ugT8xRL//en8/f+ewPkvefNBhPQ9gvRAhPSiw/n//fb7xCP7uwD5wiP9/Piiw/o4fvNJifRGh/RGiPREhvRDhfQ1ffOWvPn4uwT/wRD/+uj9//+avvkmc/I5f/M2ffM0fPM8gfRDhvRFh/Sbv/n80E/5uAD/vwTIswzO5sb8/fvW5PymxfquyvqqyPq0zvp6qfc6gPRHiPSwzPr/uACxtikspEtcunv8/vx2pvfV5Pz/+OKJsjknplY1qVcqo0mHzJr9/f+lw/43fvFdl/X9/vyP064loUQ6qlc1qVQpo0pqv4HS7Nn6/fv8/f3f8uKEyJ85h9ZDgv9HiPMze/Npv38koUU5qlc3qVYppEovpk5Os2leunZRtWw0qFQno0U2qFlDk8I0evlxpPb9/v75/Pppvn8joUUyp1E6q1gwpk8spU0vpk82qVU7qlo0qVAjoj9hqrj09v/9/v2a06k7q1kloUYoo0kupU4wplAupk4yp1KJzJv8//Pr9u6l2LNwwoZWt3BMsmhTtW2Z06nf8eT4/Pn7/fz8/v3+//5PFEZOAAAAAWJLR0QAiAUdSAAAAAd0SU1FB+ULEAc5JnRSWN0AAAGVSURBVBjTY2AAAkYmIMHMAiKZWBmggI2BgZ2Dk4ubh5ePH6gEIsjMwCAgKCQsIiomLiQhKQVTKS0jKyevIKqopKCsoqrGoA4UBJojo6GpoKWto6unrSisbwASYWBiMDTSNDYxNTNnsLC0srYBGQgEtnb2Do5OQIazi6ubu6ubi4szkOPh6eXtA9QDZPtCXeDKwODnHxAYxBDsyhASGhYeERkeFRrNwBATGxefkMjAmMSQnJKaBgTpKRkMDJlZcdk5uSDRvPyCwqLiksLSMrDa8orKKqBodU1tXX1DY1N9M9Dolta29g6GTmeGru6e3r7+CRPrJ4HcMHnK1GkMDNOBbmD0ZZhR29QwE+iKWbPnzJ03HyjtsoCBYeGiwobFLgwMSxiWLlu+YuWq1WsY1q5bv2Hjps2TGJJALt6yddv2HTt37d6zd9/+AwcPgX18mOHI0WPHT2w/eer0mbPnzl+46AvyMcMlBobLV65eu37j5sqrt27fASqDqma4e+/+g4ePVj1+wgATBLpjOkjL02dA8vkLkAAAfCh/yEaJBysAAAAldEVYdGRhdGU6Y3JlYXRlADIwMjEtMTEtMTZUMDc6NTc6MzMrMDA6MDAsmbeWAAAAJXRFWHRkYXRlOm1vZGlmeQAyMDIxLTExLTE2VDA3OjU3OjMzKzAwOjAwXcQPKgAAAABJRU5ErkJggg==') !important;
+    }
+
+    .ghichu-hotline {
+        text-align: center;
+    }
+
+    .other_future_sthc .btn-create, span.btn-create.other_future_sthc {
+        width: 100%;
+        font-size: 13px;
+        padding: 6px 20px;
+        border-radius: 4px !important;
+        color: #fff;
+        text-transform: uppercase;
+        cursor: pointer;
+        background: #628a9d;
+        position: relative;
+        margin-left: 0px;
+        margin-top: 0px;
+    }
+
+        .other_future_sthc .btn-create:hover, span.btn-create.other_future_sthc:hover:before {
+            filter: brightness(0.9);
+            width: 100%;
+            transition: all .5s ease;
+        }
+
+
+    .form-login .other_future_sthc {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .other_future_sthc {
+        margin-bottom: 10px;
+        margin-top: 10px;
+    }
+
+        .other_future_sthc a {
+            text-align: center;
+            margin-bottom: 5px;
+        }
+</style>
+<section class="main-content">
+    <div class="container-fluid">
+        <div class="row">
+                <div class="col-lg-9 col-md-8 col-left-tlu">
+                    
+<link href="./index/box-search.css" rel="stylesheet">
+<link href="./index/kendo.common.min.css" rel="stylesheet">
+<link href="./index/kendo.cms.min.css" rel="stylesheet">
+<script src="./index/layout.min.js.download" type="text/javascript"></script>
+<script src="./index/kendo.all.min.js.download"></script>
+<script src="./index/kendo.timezones.min.js.download"></script>
+
+<style>
+    .box-search {
+        width: initial !important;
+    }
+
+    .form-control:focus {
+        border-color: #ddd !important;
+        box-shadow: none !important;
+    }
+
+    .k-widget .k-input {
+        height: 26px;
+    }
+    select.form-control:not([size]):not([multiple]) {
+        height: calc(2.25rem - 2px);
+    }
+    input.form-control {
+        height: 33px !important;
+    }
+    .k-picker-wrap.k-state-default {
+        background-color: #d9e0e3 !important;
+        border-color: #d9dbdc !important;
+    }
+
+</style>
+<div style="padding: 0px 27px 0px 22px;">
+    <!-- <div class="page-toolbar">
+        <div class="pull-right box-search">
+            <a class="btn btn-sm btn-hide-search " onclick="HideBoxSearch()" href="javascript:"></a>
+        </div>
+        <div class="clearfix"></div>
+    </div> -->
+    <div class="portlet light bordered" id="box-search-hide">
+        <div id="box-search" class="box-searchnangcao form-cms">
+            <div class="form-body form-cms">
+                <div class="row">
+                    <div class="form-group col-md-3">
+                        <label>Tìm kiếm</label>
+                        <div>
+                            <input class="form-control" id="pKeyWord" name="pKeyWord" type="text" value="">
+                        </div>
+                    </div>
+                    <div class="form-group col-md-3">
+                        <label>Danh mục</label>
+                        <div>
+                            <select class="form-select form-control" id="pIDDanhMuc" name="pIDDanhMuc" onchange="(this)" placeholder="Chọn"><option value="">Chọn</option>
+<option value="10">Một cửa</option>
+<option value="5">Hướng dẫn sử dụng hệ thống</option>
+<option value="9">Biểu mẫu</option>
+<option value="3">Quy chế - Quy định</option>
+<option value="2">Đào tạo</option>
+</select>
+                        </div>
+                    </div>
+
+                    <div class="form-group col-md-2">
+                        <label>Ngày tạo từ</label>
+                        <div>
+                            <span class="k-widget k-datepicker k-header" style="width: 100%;"><span class="k-picker-wrap k-state-default"><input id="pNgayTaoTu" name="pNgayTaoTu" style="width:100%" type="text" data-role="datepicker" class="k-input" role="combobox" aria-expanded="false" aria-owns="pNgayTaoTu_dateview" aria-disabled="false"><span unselectable="on" class="k-select" aria-label="select" role="button" aria-controls="pNgayTaoTu_dateview"><span class="k-icon k-i-calendar"></span></span></span></span><script>
+	jQuery(function(){jQuery("#pNgayTaoTu").kendoDatePicker({"format":"dd/MM/yyyy","min":new Date(1900,0,1,0,0,0,0),"max":new Date(2099,11,31,0,0,0,0)});});
+</script>
+                        </div>
+                    </div>
+                    <div class="form-group col-md-2">
+                        <label>Ngày tạo đến</label>
+                        <div>
+                            <span class="k-widget k-datepicker k-header" style="width: 100%;"><span class="k-picker-wrap k-state-default"><input id="pNgayTaoDen" name="pNgayTaoDen" style="width:100%" type="text" data-role="datepicker" class="k-input" role="combobox" aria-expanded="false" aria-owns="pNgayTaoDen_dateview" aria-disabled="false"><span unselectable="on" class="k-select" aria-label="select" role="button" aria-controls="pNgayTaoDen_dateview"><span class="k-icon k-i-calendar"></span></span></span></span><script>
+	jQuery(function(){jQuery("#pNgayTaoDen").kendoDatePicker({"format":"dd/MM/yyyy","min":new Date(1900,0,1,0,0,0,0),"max":new Date(2099,11,31,0,0,0,0)});});
+</script>
+                        </div>
+                    </div>
+                    <div class="form-group col-md-2">
+                        <label>Trạng thái</label>
+                        <div>
+                            <select class="form-select form-control" id="pTrangThai" name="pTrangThai" onchange="(this)" placeholder="Chọn"><option value="">Chọn</option>
+<option value="1">Còn hạn</option>
+<option value="2">Hết hạn</option>
+</select>
+                        </div>
+                    </div>
+
+                    <div class="form-group col-md-12">
+                        <label style="color:#fff;">.</label>
+                        <div class="text-center">
+                            <button id="btnTimGrid" name="btnTimGrid" class="btn btn-info btn-sm" type="button" onclick="searchTinTuc()">Tìm kiếm</button>
+                            <button type="reset" class="btn btn-warning btn-sm" onclick="resetControl()">Làm mới</button>
+                        </div>
+                        <div class="clearfix"></div>
+                    </div>
+                    <div class="clearfix"></div>
+                </div>
+            </div>
+            <div class="clearfix"></div>
+        </div>
+    </div>
+</div>
+
+<script>
+    function resetControl() {
+        $("#pKeyWord").val(null);
+        $("#pIDDanhMuc").val(null);
+        $("#pNgayTaoTu").val(null);
+        $("#pNgayTaoDen").val(null);
+        $("#pTrangThai").val(null);
+    }
+</script>
+                                        <div id="ViewDanhSachTinTuc">
+
+
+<style>
+    .title-notifi-22 {
+        font-size: 17px !important;
+    }
+
+    .head-notifi-22 {
+        font-size: 17px !important;
+    }
+
+    .notifi-tab .nav-tabs {
+        overflow-x: auto;
+        overflow-y: hidden;
+        flex-wrap: nowrap;
+    }
+
+        .notifi-tab .nav-tabs .nav-link {
+            white-space: nowrap;
+        }
+
+        .notifi-tab .nav-tabs::-webkit-scrollbar-track {
+            -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+            background-color: #F5F5F5;
+        }
+
+        .notifi-tab .nav-tabs::-webkit-scrollbar {
+            height: 6px;
+            background-color: #F5F5F5;
+        }
+
+        .notifi-tab .nav-tabs::-webkit-scrollbar-thumb {
+            background-color: #0ae;
+            background-image: -webkit-gradient(linear, 0 0, 0 100%, color-stop(.5, rgba(255, 255, 255, .2)), color-stop(.5, transparent), to(transparent));
+        }
+</style>
+
+
+    <div class="notifi notifi-tab h-100">
+        <ul class="nav nav nav-tabs" role="tablist">
+
+                <li class="nav-item" role="presentation">
+                    <a class="nav-link active" data-bs-toggle="tab" href="https://sinhvien.huce.edu.vn/sinh-vien-dang-nhap.html#tabs_9a2f4" role="tab" aria-controls="" aria-selected="true">
+                        <div class="head-notifi head-notifi-79"> Đào tạo</div>
+                    </a>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <a class="nav-link " data-bs-toggle="tab" href="https://sinhvien.huce.edu.vn/sinh-vien-dang-nhap.html#tabs_85b57" role="tab" aria-controls="" aria-selected="false" tabindex="-1">
+                        <div class="head-notifi head-notifi-79"> Quy chế - Quy định</div>
+                    </a>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <a class="nav-link " data-bs-toggle="tab" href="https://sinhvien.huce.edu.vn/sinh-vien-dang-nhap.html#tabs_ecd49" role="tab" aria-controls="" aria-selected="false" tabindex="-1">
+                        <div class="head-notifi head-notifi-79"> Hướng dẫn sử dụng hệ thống</div>
+                    </a>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <a class="nav-link " data-bs-toggle="tab" href="https://sinhvien.huce.edu.vn/sinh-vien-dang-nhap.html#tabs_addb7" role="tab" aria-controls="" aria-selected="false" tabindex="-1">
+                        <div class="head-notifi head-notifi-79"> Biểu mẫu</div>
+                    </a>
+                </li>
+        </ul>
+
+        <div class="tab-content" id="myTabContent">
+
+
+                <div class="tab-pane fade active show" id="tabs_9a2f4" role="tabpanel" aria-labelledby="home-tab">
+                    <div class="content-notifi">
+                                <div class="item-notifi clearfix">
+                                    <div class="box-left">
+                                        <div class="date-notifi">
+                                            <p class="month m-0">Tháng 09</p>
+                                            <p class="days m-0">10</p>
+                                        </div>
+                                    </div>
+                                    <div class="desc-notifi ">
+                                        <a href="https://sinhvien.huce.edu.vn/sinh-vien/tin-tuc/ke-hoach-giang-day-va-hoc-tap-nam-hoc-2026-2027.html?pIDDanhMuc=2" class="title-notifi news_new title-notifi-79" data-post-id="1729">Kế hoạch giảng dạy và học tập năm học 2026-2027</a>
+                                            <p class="desc"></p>
+                                        <div class="view-more">
+                                            <a class="view" href="https://sinhvien.huce.edu.vn/sinh-vien/tin-tuc/ke-hoach-giang-day-va-hoc-tap-nam-hoc-2026-2027.html?pIDDanhMuc=2">Xem chi tiết</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="item-notifi clearfix">
+                                    <div class="box-left">
+                                        <div class="date-notifi">
+                                            <p class="month m-0">Tháng 09</p>
+                                            <p class="days m-0">08</p>
+                                        </div>
+                                    </div>
+                                    <div class="desc-notifi ">
+                                        <a href="https://sinhvien.huce.edu.vn/sinh-vien/tin-tuc/thong-bao-to-chuc-khoa-hoc-tieng-anh-tang-cuong-cho-sinh-vien-k64-68-he-dai-hoc-chinh-quy-thi-chuan-dau-ra.html?pIDDanhMuc=2" class="title-notifi news_new title-notifi-79" data-post-id="1728">Thông báo tổ chức khóa học tiếng Anh tăng cường cho sinh viên K64-68 hệ đại học chính quy thi chuẩn đầu ra</a>
+                                            <p class="desc"></p>
+                                        <div class="view-more">
+                                            <a class="view" href="https://sinhvien.huce.edu.vn/sinh-vien/tin-tuc/thong-bao-to-chuc-khoa-hoc-tieng-anh-tang-cuong-cho-sinh-vien-k64-68-he-dai-hoc-chinh-quy-thi-chuan-dau-ra.html?pIDDanhMuc=2">Xem chi tiết</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="item-notifi clearfix">
+                                    <div class="box-left">
+                                        <div class="date-notifi">
+                                            <p class="month m-0">Tháng 08</p>
+                                            <p class="days m-0">24</p>
+                                        </div>
+                                    </div>
+                                    <div class="desc-notifi ">
+                                        <a href="https://sinhvien.huce.edu.vn/sinh-vien/tin-tuc/thong-bao-to-chuc-le-trao-bang-tot-nghiep-dai-hoc-dot-thang-9-nam-2026.html?pIDDanhMuc=2" class="title-notifi news_new title-notifi-79" data-post-id="1727">Thông báo tổ chức lễ trao bằng tốt nghiệp đại học đợt tháng 9 năm 2026</a>
+                                            <p class="desc"></p>
+                                        <div class="view-more">
+                                            <a class="view" href="https://sinhvien.huce.edu.vn/sinh-vien/tin-tuc/thong-bao-to-chuc-le-trao-bang-tot-nghiep-dai-hoc-dot-thang-9-nam-2026.html?pIDDanhMuc=2">Xem chi tiết</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="item-notifi clearfix">
+                                    <div class="box-left">
+                                        <div class="date-notifi">
+                                            <p class="month m-0">Tháng 08</p>
+                                            <p class="days m-0">16</p>
+                                        </div>
+                                    </div>
+                                    <div class="desc-notifi ">
+                                        <a href="https://sinhvien.huce.edu.vn/sinh-vien/tin-tuc/ket-qua-thi-danh-gia-trinh-do-tieng-anh-thang-82026.html?pIDDanhMuc=2" class="title-notifi news_new title-notifi-79" data-post-id="1726">Kết quả thi đánh giá trình độ tiếng Anh tháng 8.2026</a>
+                                            <p class="desc"></p>
+                                        <div class="view-more">
+                                            <a class="view" href="https://sinhvien.huce.edu.vn/sinh-vien/tin-tuc/ket-qua-thi-danh-gia-trinh-do-tieng-anh-thang-82026.html?pIDDanhMuc=2">Xem chi tiết</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="item-notifi clearfix">
+                                    <div class="box-left">
+                                        <div class="date-notifi">
+                                            <p class="month m-0">Tháng 08</p>
+                                            <p class="days m-0">14</p>
+                                        </div>
+                                    </div>
+                                    <div class="desc-notifi ">
+                                        <a href="https://sinhvien.huce.edu.vn/sinh-vien/tin-tuc/thong-bao-nhan-chung-chi-giao-duc-quoc-phong-an-ninh-dot-t32026.html?pIDDanhMuc=2" class="title-notifi news_new title-notifi-79" data-post-id="1725">Thông báo nhận chứng chỉ Giáo dục Quốc phòng - An ninh đợt T3.2026 </a>
+                                            <p class="desc"></p>
+                                        <div class="view-more">
+                                            <a class="view" href="https://sinhvien.huce.edu.vn/sinh-vien/tin-tuc/thong-bao-nhan-chung-chi-giao-duc-quoc-phong-an-ninh-dot-t32026.html?pIDDanhMuc=2">Xem chi tiết</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="item-notifi clearfix">
+                                    <div class="box-left">
+                                        <div class="date-notifi">
+                                            <p class="month m-0">Tháng 08</p>
+                                            <p class="days m-0">10</p>
+                                        </div>
+                                    </div>
+                                    <div class="desc-notifi ">
+                                        <a href="https://sinhvien.huce.edu.vn/sinh-vien/tin-tuc/thong-bao-huy-va-bo-tri-lai-mot-so-lop-mon-hoc-hoc-ky-i-nam-hoc-2026-2027-thuoc-khoa-kien-truc.html?pIDDanhMuc=2" class="title-notifi news_new title-notifi-79" data-post-id="1723">Thông báo huỷ và bố trí lại một số lớp môn học học kỳ I năm học 2026-2027 thuộc Khoa Kiến trúc</a>
+                                            <p class="desc"></p>
+                                        <div class="view-more">
+                                            <a class="view" href="https://sinhvien.huce.edu.vn/sinh-vien/tin-tuc/thong-bao-huy-va-bo-tri-lai-mot-so-lop-mon-hoc-hoc-ky-i-nam-hoc-2026-2027-thuoc-khoa-kien-truc.html?pIDDanhMuc=2">Xem chi tiết</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="item-notifi clearfix">
+                                    <div class="box-left">
+                                        <div class="date-notifi">
+                                            <p class="month m-0">Tháng 08</p>
+                                            <p class="days m-0">10</p>
+                                        </div>
+                                    </div>
+                                    <div class="desc-notifi ">
+                                        <a href="https://sinhvien.huce.edu.vn/sinh-vien/tin-tuc/ket-qua-thi-danh-gia-trinh-do-tieng-phap-delf-b1-82026.html?pIDDanhMuc=2" class="title-notifi news_new title-notifi-79" data-post-id="1724">Kết quả thi đánh giá trình độ tiếng Pháp DELF B1 8.2026</a>
+                                            <p class="desc"></p>
+                                        <div class="view-more">
+                                            <a class="view" href="https://sinhvien.huce.edu.vn/sinh-vien/tin-tuc/ket-qua-thi-danh-gia-trinh-do-tieng-phap-delf-b1-82026.html?pIDDanhMuc=2">Xem chi tiết</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="item-notifi clearfix">
+                                    <div class="box-left">
+                                        <div class="date-notifi">
+                                            <p class="month m-0">Tháng 08</p>
+                                            <p class="days m-0">07</p>
+                                        </div>
+                                    </div>
+                                    <div class="desc-notifi ">
+                                        <a href="https://sinhvien.huce.edu.vn/sinh-vien/tin-tuc/danh-sach-thi-danh-gia-trinh-do-tieng-anh-thang-82026.html?pIDDanhMuc=2" class="title-notifi news_new title-notifi-79" data-post-id="1722">Danh sách thi đánh giá trình độ tiếng Anh tháng 8.2026</a>
+                                            <p class="desc"></p>
+                                        <div class="view-more">
+                                            <a class="view" href="https://sinhvien.huce.edu.vn/sinh-vien/tin-tuc/danh-sach-thi-danh-gia-trinh-do-tieng-anh-thang-82026.html?pIDDanhMuc=2">Xem chi tiết</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="item-notifi clearfix">
+                                    <div class="box-left">
+                                        <div class="date-notifi">
+                                            <p class="month m-0">Tháng 08</p>
+                                            <p class="days m-0">05</p>
+                                        </div>
+                                    </div>
+                                    <div class="desc-notifi ">
+                                        <a href="https://sinhvien.huce.edu.vn/sinh-vien/tin-tuc/danh-sach-thi-danh-gia-trinh-do-tieng-phap-delf-b1-82026.html?pIDDanhMuc=2" class="title-notifi news_new title-notifi-79" data-post-id="1721">Danh sách thi đánh giá trình độ tiếng Pháp DELF B1 8.2026</a>
+                                            <p class="desc"></p>
+                                        <div class="view-more">
+                                            <a class="view" href="https://sinhvien.huce.edu.vn/sinh-vien/tin-tuc/danh-sach-thi-danh-gia-trinh-do-tieng-phap-delf-b1-82026.html?pIDDanhMuc=2">Xem chi tiết</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="item-notifi clearfix">
+                                    <div class="box-left">
+                                        <div class="date-notifi">
+                                            <p class="month m-0">Tháng 08</p>
+                                            <p class="days m-0">05</p>
+                                        </div>
+                                    </div>
+                                    <div class="desc-notifi ">
+                                        <a href="https://sinhvien.huce.edu.vn/sinh-vien/tin-tuc/thong-bao-to-chuc-khoa-hoc-tieng-anh-tang-cuong-cho-sinh-vien-k63-68-he-dai-hoc-chinh-quy-thi-chuan-dau-ra-084034.html?pIDDanhMuc=2" class="title-notifi news_new title-notifi-79" data-post-id="1720">Thông báo tổ chức khóa học tiếng Anh tăng cường cho sinh viên K63-68 hệ đại học chính quy thi chuẩn đầu ra</a>
+                                            <p class="desc"></p>
+                                        <div class="view-more">
+                                            <a class="view" href="https://sinhvien.huce.edu.vn/sinh-vien/tin-tuc/thong-bao-to-chuc-khoa-hoc-tieng-anh-tang-cuong-cho-sinh-vien-k63-68-he-dai-hoc-chinh-quy-thi-chuan-dau-ra-084034.html?pIDDanhMuc=2">Xem chi tiết</a>
+                                        </div>
+                                    </div>
+                                </div>
+                    </div>
+                        <a style="float: right; color: red; font-weight: bold; padding: 5px 30px !important; font-size: 18px;" href="https://sinhvien.huce.edu.vn/sinh-vien/dm-tin-tuc/dao-tao.html">XEM THÊM</a>
+                </div>
+                <div class="tab-pane fade " id="tabs_85b57" role="tabpanel" aria-labelledby="home-tab">
+                    <div class="content-notifi">
+                                <div class="item-notifi clearfix">
+                                    <div class="box-left">
+                                        <div class="date-notifi">
+                                            <p class="month m-0">Tháng 03</p>
+                                            <p class="days m-0">21</p>
+                                        </div>
+                                    </div>
+                                    <div class="desc-notifi ">
+                                        <a href="https://sinhvien.huce.edu.vn/sinh-vien/tin-tuc/quy-dinh-to-chuc-va-danh-gia-do-an-tot-nghiep-truong-dai-hoc-xay-dung-ha-noi.html?pIDDanhMuc=3" class="title-notifi news_hot title-notifi-79" data-post-id="1674">Quy định Tổ chức và Đánh giá Đồ án tốt nghiệp Trường Đại học Xây dựng Hà Nội</a>
+                                            <p class="desc"></p>
+                                        <div class="view-more">
+                                            <a class="view" href="https://sinhvien.huce.edu.vn/sinh-vien/tin-tuc/quy-dinh-to-chuc-va-danh-gia-do-an-tot-nghiep-truong-dai-hoc-xay-dung-ha-noi.html?pIDDanhMuc=3">Xem chi tiết</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="item-notifi clearfix">
+                                    <div class="box-left">
+                                        <div class="date-notifi">
+                                            <p class="month m-0">Tháng 03</p>
+                                            <p class="days m-0">12</p>
+                                        </div>
+                                    </div>
+                                    <div class="desc-notifi ">
+                                        <a href="https://sinhvien.huce.edu.vn/sinh-vien/tin-tuc/quy-dinh-to-chuc-danh-gia-va-cong-nhan-ket-qua-hoc-tap-theo-chuan-dau-ra-chuong-trinh-dao-tao-bac-dai-hoc.html?pIDDanhMuc=3" class="title-notifi news_new title-notifi-79" data-post-id="1668">Quy định Tổ chức đánh giá và công nhận kết quả học tập theo chuẩn đầu ra chương trình đào tạo bậc đại học</a>
+                                            <p class="desc"></p>
+                                        <div class="view-more">
+                                            <a class="view" href="https://sinhvien.huce.edu.vn/sinh-vien/tin-tuc/quy-dinh-to-chuc-danh-gia-va-cong-nhan-ket-qua-hoc-tap-theo-chuan-dau-ra-chuong-trinh-dao-tao-bac-dai-hoc.html?pIDDanhMuc=3">Xem chi tiết</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="item-notifi clearfix">
+                                    <div class="box-left">
+                                        <div class="date-notifi">
+                                            <p class="month m-0">Tháng 01</p>
+                                            <p class="days m-0">26</p>
+                                        </div>
+                                    </div>
+                                    <div class="desc-notifi ">
+                                        <a href="https://sinhvien.huce.edu.vn/sinh-vien/tin-tuc/quy-dinh-to-chuc-va-danh-gia-thuc-tap-tot-nghiep-truong-dai-hoc-xay-dung-ha-noi.html?pIDDanhMuc=3" class="title-notifi news_hot title-notifi-79" data-post-id="1673">Quy định Tổ chức và Đánh giá Thực tập tốt nghiệp Trường Đại học Xây dựng Hà Nội</a>
+                                            <p class="desc"></p>
+                                        <div class="view-more">
+                                            <a class="view" href="https://sinhvien.huce.edu.vn/sinh-vien/tin-tuc/quy-dinh-to-chuc-va-danh-gia-thuc-tap-tot-nghiep-truong-dai-hoc-xay-dung-ha-noi.html?pIDDanhMuc=3">Xem chi tiết</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="item-notifi clearfix">
+                                    <div class="box-left">
+                                        <div class="date-notifi">
+                                            <p class="month m-0">Tháng 01</p>
+                                            <p class="days m-0">13</p>
+                                        </div>
+                                    </div>
+                                    <div class="desc-notifi ">
+                                        <a href="https://sinhvien.huce.edu.vn/sinh-vien/tin-tuc/quyet-dinh-ban-hanh-quy-dinh-ve-phan-loai-trinh-do-dau-vao-chuong-trinh-hoc-va-chuan-tieng-anh-yeu-cau-doi-voi-sinh-vien-dai-hoc-he-chinh-quy-k70.html?pIDDanhMuc=3" class="title-notifi news_new title-notifi-79" data-post-id="1649">Quyết định ban hành Quy định về phân loại trình độ đầu vào, chương trình học và chuẩn ngoại ngữ yêu cầu đối với sinh viên đại học hệ chính quy K70</a>
+                                            <p class="desc"></p>
+                                        <div class="view-more">
+                                            <a class="view" href="https://sinhvien.huce.edu.vn/sinh-vien/tin-tuc/quyet-dinh-ban-hanh-quy-dinh-ve-phan-loai-trinh-do-dau-vao-chuong-trinh-hoc-va-chuan-tieng-anh-yeu-cau-doi-voi-sinh-vien-dai-hoc-he-chinh-quy-k70.html?pIDDanhMuc=3">Xem chi tiết</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="item-notifi clearfix">
+                                    <div class="box-left">
+                                        <div class="date-notifi">
+                                            <p class="month m-0">Tháng 10</p>
+                                            <p class="days m-0">23</p>
+                                        </div>
+                                    </div>
+                                    <div class="desc-notifi ">
+                                        <a href="https://sinhvien.huce.edu.vn/sinh-vien/tin-tuc/thong-bao-dieu-kien-cap-chung-chi-giao-duc-quoc-phong-an-ninh.html?pIDDanhMuc=3" class="title-notifi news_new title-notifi-79" data-post-id="1596">Thông báo điều kiện cấp chứng chỉ Giáo dục quốc phòng - An ninh</a>
+                                            <p class="desc"></p>
+                                        <div class="view-more">
+                                            <a class="view" href="https://sinhvien.huce.edu.vn/sinh-vien/tin-tuc/thong-bao-dieu-kien-cap-chung-chi-giao-duc-quoc-phong-an-ninh.html?pIDDanhMuc=3">Xem chi tiết</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="item-notifi clearfix">
+                                    <div class="box-left">
+                                        <div class="date-notifi">
+                                            <p class="month m-0">Tháng 06</p>
+                                            <p class="days m-0">20</p>
+                                        </div>
+                                    </div>
+                                    <div class="desc-notifi ">
+                                        <a href="https://sinhvien.huce.edu.vn/sinh-vien/tin-tuc/quyet-dinh-ban-hanh-quy-dinh-ve-ct-hoc-va-chuan-tieng-anh-tieng-phap-yeu-cau-doi-voi-sinh-vien-cac-lop-e-f-pfiev.html?pIDDanhMuc=3" class="title-notifi news_new title-notifi-79" data-post-id="1544">Quyết định ban hành Quy định về CT học và chuẩn tiếng Anh, tiếng Pháp yêu cầu đối với sinh viên đại học hệ chính quy các lớp E F PFIEV K69</a>
+                                            <p class="desc"></p>
+                                        <div class="view-more">
+                                            <a class="view" href="https://sinhvien.huce.edu.vn/sinh-vien/tin-tuc/quyet-dinh-ban-hanh-quy-dinh-ve-ct-hoc-va-chuan-tieng-anh-tieng-phap-yeu-cau-doi-voi-sinh-vien-cac-lop-e-f-pfiev.html?pIDDanhMuc=3">Xem chi tiết</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="item-notifi clearfix">
+                                    <div class="box-left">
+                                        <div class="date-notifi">
+                                            <p class="month m-0">Tháng 04</p>
+                                            <p class="days m-0">09</p>
+                                        </div>
+                                    </div>
+                                    <div class="desc-notifi ">
+                                        <a href="https://sinhvien.huce.edu.vn/sinh-vien/tin-tuc/qy-xet-mien-hoc-mien-thi-va-quy-doi-diem-doi-voi-sv-k69-co-ccta.html?pIDDanhMuc=3" class="title-notifi  title-notifi-79" data-post-id="1528">Quyết định xét miễn học, miễn thi và quy đổi điểm đối với SV K69 có chứng chỉ tiếng Anh</a>
+                                            <p class="desc"></p>
+                                        <div class="view-more">
+                                            <a class="view" href="https://sinhvien.huce.edu.vn/sinh-vien/tin-tuc/qy-xet-mien-hoc-mien-thi-va-quy-doi-diem-doi-voi-sv-k69-co-ccta.html?pIDDanhMuc=3">Xem chi tiết</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="item-notifi clearfix">
+                                    <div class="box-left">
+                                        <div class="date-notifi">
+                                            <p class="month m-0">Tháng 04</p>
+                                            <p class="days m-0">02</p>
+                                        </div>
+                                    </div>
+                                    <div class="desc-notifi ">
+                                        <a href="https://sinhvien.huce.edu.vn/sinh-vien/tin-tuc/quyet-dinh-ban-hanh-quy-dinh-ve-phan-loai-trinh-do-dau-vao-chuong-trinh-hoc-va-chuan-tieng-anh-yeu-cau-doi-voi-sinh-vien-dai-hoc-he-chinh-quy-k69.html?pIDDanhMuc=3" class="title-notifi  title-notifi-79" data-post-id="1524">Quyết định ban hành Quy định về phân loại trình độ đầu vào, chương trình học và chuẩn tiếng Anh yêu cầu đối với sinh viên đại học hệ chính quy K69</a>
+                                            <p class="desc"></p>
+                                        <div class="view-more">
+                                            <a class="view" href="https://sinhvien.huce.edu.vn/sinh-vien/tin-tuc/quyet-dinh-ban-hanh-quy-dinh-ve-phan-loai-trinh-do-dau-vao-chuong-trinh-hoc-va-chuan-tieng-anh-yeu-cau-doi-voi-sinh-vien-dai-hoc-he-chinh-quy-k69.html?pIDDanhMuc=3">Xem chi tiết</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="item-notifi clearfix">
+                                    <div class="box-left">
+                                        <div class="date-notifi">
+                                            <p class="month m-0">Tháng 12</p>
+                                            <p class="days m-0">09</p>
+                                        </div>
+                                    </div>
+                                    <div class="desc-notifi ">
+                                        <a href="https://sinhvien.huce.edu.vn/sinh-vien/tin-tuc/thong-bao-ve-cac-chung-chi-hoac-tham-gia-chuong-trinh-danh-gia-nang-ngoai-ngu-dau-ra-cua-sv-hoc-chuong-trinh-ks-kts-tu-k65-68.html?pIDDanhMuc=3" class="title-notifi news_new title-notifi-79" data-post-id="1468">Thông báo về các chứng chỉ hoặc tham gia chương trình đánh giá năng ngoại ngữ đầu ra của SV học chương trình KS, KTS từ K65-68</a>
+                                            <p class="desc"></p>
+                                        <div class="view-more">
+                                            <a class="view" href="https://sinhvien.huce.edu.vn/sinh-vien/tin-tuc/thong-bao-ve-cac-chung-chi-hoac-tham-gia-chuong-trinh-danh-gia-nang-ngoai-ngu-dau-ra-cua-sv-hoc-chuong-trinh-ks-kts-tu-k65-68.html?pIDDanhMuc=3">Xem chi tiết</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="item-notifi clearfix">
+                                    <div class="box-left">
+                                        <div class="date-notifi">
+                                            <p class="month m-0">Tháng 09</p>
+                                            <p class="days m-0">17</p>
+                                        </div>
+                                    </div>
+                                    <div class="desc-notifi ">
+                                        <a href="https://sinhvien.huce.edu.vn/sinh-vien/tin-tuc/quy-che-van-hoa-hoc-duong-cua-truong-dai-hoc-xay-dung-ha-noi.html?pIDDanhMuc=3" class="title-notifi news_new title-notifi-79" data-post-id="1429">Quy chế Văn hóa học đường của Trường Đại học Xây dựng Hà Nội</a>
+                                            <p class="desc">Quy chế Văn hóa học đường của Trường Đại học Xây dựng Hà Nội</p>
+                                        <div class="view-more">
+                                            <a class="view" href="https://sinhvien.huce.edu.vn/sinh-vien/tin-tuc/quy-che-van-hoa-hoc-duong-cua-truong-dai-hoc-xay-dung-ha-noi.html?pIDDanhMuc=3">Xem chi tiết</a>
+                                        </div>
+                                    </div>
+                                </div>
+                    </div>
+                        <a style="float: right; color: red; font-weight: bold; padding: 5px 30px !important; font-size: 18px;" href="https://sinhvien.huce.edu.vn/sinh-vien/dm-tin-tuc/quy-che-quy-dinh.html">XEM THÊM</a>
+                </div>
+                <div class="tab-pane fade " id="tabs_ecd49" role="tabpanel" aria-labelledby="home-tab">
+                    <div class="content-notifi">
+                                <div class="item-notifi clearfix">
+                                    <div class="box-left">
+                                        <div class="date-notifi">
+                                            <p class="month m-0">Tháng 09</p>
+                                            <p class="days m-0">11</p>
+                                        </div>
+                                    </div>
+                                    <div class="desc-notifi ">
+                                        <a href="https://sinhvien.huce.edu.vn/sinh-vien/tin-tuc/tai-lieu-huong-dan-su-dung-microsoft-teams-danh-cho-nguoi-dung-la-giang-vien.html?pIDDanhMuc=5" class="title-notifi news_new title-notifi-79" data-post-id="1425">Tài liệu hướng dẫn sử dụng Microsoft Teams - Dành cho người dùng là giảng viên </a>
+                                            <p class="desc"></p>
+                                        <div class="view-more">
+                                            <a class="view" href="https://sinhvien.huce.edu.vn/sinh-vien/tin-tuc/tai-lieu-huong-dan-su-dung-microsoft-teams-danh-cho-nguoi-dung-la-giang-vien.html?pIDDanhMuc=5">Xem chi tiết</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="item-notifi clearfix">
+                                    <div class="box-left">
+                                        <div class="date-notifi">
+                                            <p class="month m-0">Tháng 07</p>
+                                            <p class="days m-0">05</p>
+                                        </div>
+                                    </div>
+                                    <div class="desc-notifi ">
+                                        <a href="https://sinhvien.huce.edu.vn/sinh-vien/tin-tuc/thong-bao-ve-viec-su-dung-phan-mem-oneuni-danh-cho-sinh-vien-truong-dai-hoc-xay-dung-ha-noi.html?pIDDanhMuc=5" class="title-notifi news_new title-notifi-79" data-post-id="1389">Thông báo về việc sử dụng phần mềm OneUni dành cho sinh viên trường Đại học Xây dựng Hà Nội</a>
+                                            <p class="desc">Thông báo về việc sử dụng phần mềm OneUni dành cho sinh viên trường Đại học Xây dựng Hà Nội</p>
+                                        <div class="view-more">
+                                            <a class="view" href="https://sinhvien.huce.edu.vn/sinh-vien/tin-tuc/thong-bao-ve-viec-su-dung-phan-mem-oneuni-danh-cho-sinh-vien-truong-dai-hoc-xay-dung-ha-noi.html?pIDDanhMuc=5">Xem chi tiết</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="item-notifi clearfix">
+                                    <div class="box-left">
+                                        <div class="date-notifi">
+                                            <p class="month m-0">Tháng 02</p>
+                                            <p class="days m-0">17</p>
+                                        </div>
+                                    </div>
+                                    <div class="desc-notifi ">
+                                        <a href="https://sinhvien.huce.edu.vn/sinh-vien/tin-tuc/huong-dan-hoc-online-bang-microsoft-teams-tai-lieu-sinh-vien.html?pIDDanhMuc=5" class="title-notifi news_new title-notifi-79" data-post-id="130">Hướng dẫn học online bằng Microsoft Teams (Tài liệu sinh viên)</a>
+                                            <p class="desc"></p>
+                                        <div class="view-more">
+                                            <a class="view" href="https://sinhvien.huce.edu.vn/sinh-vien/tin-tuc/huong-dan-hoc-online-bang-microsoft-teams-tai-lieu-sinh-vien.html?pIDDanhMuc=5">Xem chi tiết</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="item-notifi clearfix">
+                                    <div class="box-left">
+                                        <div class="date-notifi">
+                                            <p class="month m-0">Tháng 12</p>
+                                            <p class="days m-0">16</p>
+                                        </div>
+                                    </div>
+                                    <div class="desc-notifi ">
+                                        <a href="https://sinhvien.huce.edu.vn/sinh-vien/tin-tuc/huong-dan-tra-cuu-thong-tin-tai-khoan-ngan-hang.html?pIDDanhMuc=5" class="title-notifi news_new title-notifi-79" data-post-id="98">Hướng dẫn tra cứu thông tin tài khoản ngân hàng</a>
+                                            <p class="desc"></p>
+                                        <div class="view-more">
+                                            <a class="view" href="https://sinhvien.huce.edu.vn/sinh-vien/tin-tuc/huong-dan-tra-cuu-thong-tin-tai-khoan-ngan-hang.html?pIDDanhMuc=5">Xem chi tiết</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="item-notifi clearfix">
+                                    <div class="box-left">
+                                        <div class="date-notifi">
+                                            <p class="month m-0">Tháng 08</p>
+                                            <p class="days m-0">26</p>
+                                        </div>
+                                    </div>
+                                    <div class="desc-notifi ">
+                                        <a href="https://sinhvien.huce.edu.vn/sinh-vien/tin-tuc/huce-tai-lieu-huong-dan-su-dung-ung-dung-asc-student-tren-dien-thoai.html?pIDDanhMuc=5" class="title-notifi news_new title-notifi-79" data-post-id="36">(HUCE) Tài liệu hướng dẫn sử dụng ứng dụng ASC-STUDENT trên điện thoại</a>
+                                            <p class="desc"></p>
+                                        <div class="view-more">
+                                            <a class="view" href="https://sinhvien.huce.edu.vn/sinh-vien/tin-tuc/huce-tai-lieu-huong-dan-su-dung-ung-dung-asc-student-tren-dien-thoai.html?pIDDanhMuc=5">Xem chi tiết</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="item-notifi clearfix">
+                                    <div class="box-left">
+                                        <div class="date-notifi">
+                                            <p class="month m-0">Tháng 08</p>
+                                            <p class="days m-0">26</p>
+                                        </div>
+                                    </div>
+                                    <div class="desc-notifi ">
+                                        <a href="https://sinhvien.huce.edu.vn/sinh-vien/tin-tuc/huce-tai-lieu-huong-dan-su-dung-cong-thong-tin-cho-sinh-vien.html?pIDDanhMuc=5" class="title-notifi news_new title-notifi-79" data-post-id="35">(HUCE) Tài liệu hướng dẫn sử dụng Cổng thông tin dành cho sinh viên</a>
+                                            <p class="desc"></p>
+                                        <div class="view-more">
+                                            <a class="view" href="https://sinhvien.huce.edu.vn/sinh-vien/tin-tuc/huce-tai-lieu-huong-dan-su-dung-cong-thong-tin-cho-sinh-vien.html?pIDDanhMuc=5">Xem chi tiết</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="item-notifi clearfix">
+                                    <div class="box-left">
+                                        <div class="date-notifi">
+                                            <p class="month m-0">Tháng 08</p>
+                                            <p class="days m-0">26</p>
+                                        </div>
+                                    </div>
+                                    <div class="desc-notifi ">
+                                        <a href="https://sinhvien.huce.edu.vn/sinh-vien/tin-tuc/huce-video-huong-dan-su-dung-cong-thong-tin-dao-tao-cho-sinh-vien.html?pIDDanhMuc=5" class="title-notifi news_new title-notifi-79" data-post-id="34">(HUCE) Video hướng dẫn sử dụng Cổng thông tin dành cho sinh viên</a>
+                                            <p class="desc"></p>
+                                        <div class="view-more">
+                                            <a class="view" href="https://sinhvien.huce.edu.vn/sinh-vien/tin-tuc/huce-video-huong-dan-su-dung-cong-thong-tin-dao-tao-cho-sinh-vien.html?pIDDanhMuc=5">Xem chi tiết</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="item-notifi clearfix">
+                                    <div class="box-left">
+                                        <div class="date-notifi">
+                                            <p class="month m-0">Tháng 08</p>
+                                            <p class="days m-0">16</p>
+                                        </div>
+                                    </div>
+                                    <div class="desc-notifi ">
+                                        <a href="https://sinhvien.huce.edu.vn/sinh-vien/tin-tuc/luu-y-cach-kiem-tra-thong-tin-hoc-phan-da-dang-ky-trong-tung-hoc-ky.html?pIDDanhMuc=5" class="title-notifi  title-notifi-79" data-post-id="28">Lưu ý: Cách kiểm tra thông tin học phần đã đăng ký trong từng học kỳ  </a>
+                                            <p class="desc"></p>
+                                        <div class="view-more">
+                                            <a class="view" href="https://sinhvien.huce.edu.vn/sinh-vien/tin-tuc/luu-y-cach-kiem-tra-thong-tin-hoc-phan-da-dang-ky-trong-tung-hoc-ky.html?pIDDanhMuc=5">Xem chi tiết</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="item-notifi clearfix">
+                                    <div class="box-left">
+                                        <div class="date-notifi">
+                                            <p class="month m-0">Tháng 08</p>
+                                            <p class="days m-0">04</p>
+                                        </div>
+                                    </div>
+                                    <div class="desc-notifi ">
+                                        <a href="https://sinhvien.huce.edu.vn/sinh-vien/tin-tuc/tai-lieu-huong-dan-hoc-truc-tuyen-tuan-1-hoc-ky-1-nam-hoc-2022-2023.html?pIDDanhMuc=5" class="title-notifi news_new title-notifi-79" data-post-id="18">Tài liệu hướng dẫn học trực tuyến (Tuần 1, học kỳ 1 năm học 2022-2023)</a>
+                                            <p class="desc"></p>
+                                        <div class="view-more">
+                                            <a class="view" href="https://sinhvien.huce.edu.vn/sinh-vien/tin-tuc/tai-lieu-huong-dan-hoc-truc-tuyen-tuan-1-hoc-ky-1-nam-hoc-2022-2023.html?pIDDanhMuc=5">Xem chi tiết</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="item-notifi clearfix">
+                                    <div class="box-left">
+                                        <div class="date-notifi">
+                                            <p class="month m-0">Tháng 07</p>
+                                            <p class="days m-0">18</p>
+                                        </div>
+                                    </div>
+                                    <div class="desc-notifi ">
+                                        <a href="https://sinhvien.huce.edu.vn/sinh-vien/tin-tuc/nhung-luu-y-khi-dang-ky-hoc-phan-ky-i-nam-hoc-2022-2023-yeu-cau-sinh-vien-phai-doc.html?pIDDanhMuc=5" class="title-notifi news_new title-notifi-79" data-post-id="7">NHỮNG LƯU Ý KHI ĐĂNG KÝ HỌC PHẦN KỲ I NĂM HỌC 2022 -2023 – YÊU CẦU SINH VIÊN PHẢI ĐỌC</a>
+                                            <p class="desc">Những lưu ý khi đăng ký học phần kỳ I năm học 2022 - 2023</p>
+                                        <div class="view-more">
+                                            <a class="view" href="https://sinhvien.huce.edu.vn/sinh-vien/tin-tuc/nhung-luu-y-khi-dang-ky-hoc-phan-ky-i-nam-hoc-2022-2023-yeu-cau-sinh-vien-phai-doc.html?pIDDanhMuc=5">Xem chi tiết</a>
+                                        </div>
+                                    </div>
+                                </div>
+                    </div>
+                        <a style="float: right; color: red; font-weight: bold; padding: 5px 30px !important; font-size: 18px;" href="https://sinhvien.huce.edu.vn/sinh-vien/dm-tin-tuc/huong-dan-su-dung-he-thong.html">XEM THÊM</a>
+                </div>
+                <div class="tab-pane fade " id="tabs_addb7" role="tabpanel" aria-labelledby="home-tab">
+                    <div class="content-notifi">
+                                <div class="item-notifi clearfix">
+                                    <div class="box-left">
+                                        <div class="date-notifi">
+                                            <p class="month m-0">Tháng 09</p>
+                                            <p class="days m-0">04</p>
+                                        </div>
+                                    </div>
+                                    <div class="desc-notifi ">
+                                        <a href="https://sinhvien.huce.edu.vn/sinh-vien/tin-tuc/don-xin-cap-ban-sao-bang-dai-hoc-tu-so-goc-052707.html?pIDDanhMuc=9" class="title-notifi  title-notifi-79" data-post-id="43">Đơn xin cấp bản sao bằng đại học từ sổ gốc</a>
+                                            <p class="desc"></p>
+                                        <div class="view-more">
+                                            <a class="view" href="https://sinhvien.huce.edu.vn/sinh-vien/tin-tuc/don-xin-cap-ban-sao-bang-dai-hoc-tu-so-goc-052707.html?pIDDanhMuc=9">Xem chi tiết</a>
+                                        </div>
+                                    </div>
+                                </div>
+                    </div>
+                        <a style="float: right; color: red; font-weight: bold; padding: 5px 30px !important; font-size: 18px;" href="https://sinhvien.huce.edu.vn/sinh-vien/dm-tin-tuc/bieu-mau.html">XEM THÊM</a>
+                </div>
+        </div>
+    </div>
+<script>
+    var keyTinTucNew = "TinTucNew";
+    setRemoveIconNew();
+    $('body').on('click', '.tab-content .item-notifi .desc-notifi > a.title-notifi,.view-more .view', function () {
+        var idTinTuc = $(this).attr('data-post-id');
+        if (idTinTuc == null) {
+            idTinTuc = $(this).parent().prev().prev().attr('data-post-id');
+        }
+        var data = JSON.parse(localStorage.getItem(keyTinTucNew));
+        if (!data) {
+            data = { idTin: [idTinTuc] };
+            localStorage.setItem(keyTinTucNew, JSON.stringify(data));
+        } else {
+            if (data.idTin.indexOf(idTinTuc) === -1) {
+                data.idTin.push(idTinTuc);
+                localStorage.setItem(keyTinTucNew, JSON.stringify(data));
+            }
+        }
+        setRemoveIconNew();
+    });
+    function setRemoveIconNew() {
+        var data = JSON.parse(localStorage.getItem(keyTinTucNew));
+        if (data && data.idTin) {
+            data.idTin.forEach(function (id) {
+                $('body').find('.tab-content .item-notifi .desc-notifi a[data-post-id="' + id + '"]').removeClass('news_new');
+            });
+        }
+    }
+</script>
+</div>
+                </div>
+            <div class="col-lg-3 col-md-4 col-login-tlu">
+                    <div class="bg-form authfy-login" style="height: 630px">
+                        <div class="form-wrap h-100 w-100">
+
+                            <div class="authfy-panel panel-login active">
+<form action="https://sinhvien.huce.edu.vn/sinh-vien-dang-nhap.html" autocomplete="new-password" class="form-login" data-ajax="true" data-ajax-failure="onAjaxFailure" data-ajax-loading="#ajaxLoading" data-ajax-success="onAjaxSuccess" id="form-login" method="post"><input name="__RequestVerificationToken" type="hidden" value="4evIIwd2oIqeSli0uekxwMCwMKkcig0I2yzNs6NtAv-ip4s4VAUEEkGOWmEX-5BGFX6h-L4NOnnO85T-ciIY-0cF5RZGUZJGYqtknc6DuOQ1"><input id="SSOData" name="SSOData" type="hidden" value="">                                    <input asp-for="ReturnUrl" type="hidden">
+                                    <div class="form-login">
+                                        <div class="text-center">
+                                            <img src="./index/congthongtinsinhvien.png" style="max-width: 100%;max-height: 95px;">
+                                        </div>
+                                        <h4 lang="loginnews-pagetitle">ĐĂNG NHẬP HỆ THỐNG</h4>
+                                        <div class="group">
+                                            <input autocomplete="new-password" class="input" id="UserName" lang="langnews_user_placeholder" name="UserName" placeholder="Nhập mã sinh viên" required="required" type="text" value="">
+                                            <input autocomplete="new-password" class="input" id="Password" lang="langnews_pwd_placeholder" name="Password" placeholder="Nhập mật khẩu" required="required" type="password">
+
+                                                <div class="text-end">
+                                                    <label> <input id="IsSinhVienDaTotNghiep" name="IsSinhVienDaTotNghiep" type="checkbox" value="true"><input name="IsSinhVienDaTotNghiep" type="hidden" value="false"> Đã tốt nghiệp</label>
+                                                </div>
+
+
+                                                <div>
+                                                    <div class="box-captcha"><style>.box-captcha{position:relative;height:37px}.box-captcha br{display:none}.box-captcha img{height:37px;position:absolute;top:0;left:160px}.box-captcha input{height:37px;position:absolute;left:0;top:0;width:125px;text-align:center}.box-captcha a{position:absolute;background:url(/Content/images/refresh.png) no-repeat;left:129px;top:7px;height:24px;width:24px;cursor:pointer;text-indent:-99965px;display:inherit!important}</style><div class="captchaContainer_73341"><img border="0" class=" captcha-input imgcaptcha_73341" float="left" href="javascript:void(0)" id="newcaptcha" src="./index/GetCaptcha" style="padding-right: 5px; max-height: 35px"></div><input class="captcha-input txtcaptcha_73341" id="Captcha" name="Captcha" placeholder="Nhập mã" type="text"><a href="javascript:void(0)" class="captcharefresh refreshNewCaptcha_73341"></a><script>$(function(){$('.refreshNewCaptcha_73341').click(function(e){var a=$('.imgcaptcha_73341'),n=a.attr('src');n=n.replace(/(.*?)\?r=\d+\.\d+$/,'$1'),'undefined'!=typeof console&&console.log(n);var c=new Image;$(c).load(function(){a.prev('.captchaContainer_73341').empty().append(c)}),$('.imgcaptcha_73341').attr('src',n+'?r='+Math.random()),e.preventDefault()})});</script></div>
+
+                                                    <div class="clearfix"></div>
+                                                </div>
+
+
+                                            
+                                        </div>
+                                        <a href="./info.html" class="button text-center d-block style-btn-login">ĐĂNG NHẬP</a>
+                                            <a href="https://sinhvien.huce.edu.vn/redirect-login-microsoft.html" class="btn login-with-social-btn login-with-microsoft-btn">SSO Office 365</a>
+
+
+
+
+                                        <style>
+                                            .box-download-title {
+                                                margin: 12px 0;
+                                                text-align: center;
+                                            }
+
+                                                .box-download-title span {
+                                                    font-size: 15px;
+                                                    color: #1c67da;
+                                                }
+
+                                            .box-btn-flex {
+                                                display: flex;
+                                                align-items: center;
+                                                justify-content: center;
+                                                gap: 10px;
+                                            }
+
+                                            .box-btn-guide {
+                                                text-align: center;
+                                                background-color: #25c7ca;
+                                                border-radius: 8px;
+                                                margin: 12px 0;
+                                            }
+
+                                                .box-btn-guide a {
+                                                    line-height: 3;
+                                                    color: #fff;
+                                                    font-weight: bold;
+                                                }
+
+                                            .form-wrap {
+                                                min-height: 705px !important;
+                                            }
+
+                                            .bg-form {
+                                                min-height: 705px !important;
+                                            }
+                                        </style>
+
+
+
+                                        <div class="message-notification">
+    <div id="flash-messages" class="alert-message" style="display:none;">
+         <div class="img-massage-box"><p></p></div>
+        <a class="close" href="https://sinhvien.huce.edu.vn/sinh-vien-dang-nhap.html#">
+            <img src="./index/close.png" title="Close" alt="close" style="margin-top: 0px;">
+        </a>
+    </div>
+</div>
+<script type="text/javascript">
+    $(function () {
+        $("#flash-messages").flashMessage();
+    });
+</script>
+                                    </div>
+</form>
+                                
+
+                                        <div class="form-footer">
+                                            <span class="create"><a href="https://sinhvien.huce.edu.vn/sinh-vien-dang-nhap.html#" data-panel=".panel-tracuu" class="lnk-toggler" style="">Dành cho phụ huynh</a></span>
+                                        </div>
+
+                                <div class="box-download-app">
+
+
+                                </div>
+
+                            </div>
+                                <div class="authfy-panel panel-tracuu ">
+                                    <div class="ul-tracuu">
+
+
+                                        <div class="item">
+                                            <a href="https://sinhvien.huce.edu.vn/tra-cuu-van-bang.html">
+                                                Tra cứu <br> văn bằng
+                                            </a>
+                                        </div>
+                                        <div class="item">
+                                            <a href="https://sinhvien.huce.edu.vn/tra-cuu-van-bang.html">
+                                                <img src="./index/tracuuvanbang.png">
+                                            </a>
+                                        </div>
+
+                                                <div class="item">
+                                                    <a href="https://sinhvien.huce.edu.vn/sinh-vien-dang-nhap.html" data-bs-toggle="modal" data-bs-target="#ModalThanhToan">
+                                                        <img src="./index/thanhtoan.png">
+                                                    </a>
+                                                </div>
+                                                <div class="item">
+                                                    <a href="https://sinhvien.huce.edu.vn/sinh-vien-dang-nhap.html" data-bs-toggle="modal" data-bs-target="#ModalThanhToan">
+                                                        Thanh toán <br> học phí
+                                                    </a>
+                                                </div>
+
+                                    </div>
+                                    <div class="form-footer">
+                                        <a href="https://sinhvien.huce.edu.vn/sinh-vien-dang-nhap.html#" data-panel=".panel-login" class="lnk-toggler" lang="loginnews-goback">Quay lại</a>
+                                    </div>
+                                </div>
+                            <style>
+    .btn-create {
+        padding: 10px 12px;
+        background: #25c6cb;
+        border-radius: 3px !important;
+        margin-left: 5px;
+        display: block;
+        font-size: 1.4em;
+        text-align: center;
+    }
+
+        .btn-create a {
+            color: #fff;
+        }
+
+    .item-lien-ket {
+        padding: 10px;
+        border-radius: 10px;
+        background: rgb(255 255 255 / 0.9);
+        width: calc( 50% - 16px);
+        margin: 8px;
+        min-height: 120px;
+        position: relative;
+        overflow: hidden;
+    }
+
+        .item-lien-ket a {
+            width: 100%;
+            min-height: 60px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 0.9em;
+            text-transform: uppercase;
+            font-weight: 700;
+            text-align: center;
+            color: #172759;
+        }
+</style>
+
+
+
+                        </div>
+                    </div>
+
+                <script type="text/javascript">
+                    ! function (a) {
+                        "use strict";
+                        a("html, body");
+                        a(".lnk-toggler").on("click", function (t) {
+                            var e = a(this).data("panel");
+                            a(".authfy-panel.active").removeClass("active"), a(e).addClass("active")
+                        })
+                    }(jQuery);
+                </script>
+                <div class="modal fade" id="ModalThanhToan" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog" role="document" style="max-width: 350px">
+                        <div class="modal-content" style="background: unset">
+                            <div class="login-wrap">
+<form action="https://sinhvien.huce.edu.vn/SinhVien/LoginAnonymous" autocomplete="new-password" class="form-login" data-ajax="true" data-ajax-failure="onAjaxFailure" data-ajax-loading="#ajaxLoading" data-ajax-success="onAjaxSuccess" id="form-login" method="post"><input name="__RequestVerificationToken" type="hidden" value="D5YgCbLyK1RpZ13Nj4si8Vsk7Hwhxe7s-UTNsf_FRfewCLqaKtxSj3Sfn0uS5IMRdrvyVj2dm722g5-F4M58kK_GPMgJtbDF0Y3yb0iJlXQ1">                                    <div class="form-wrap" style="padding: 20px">
+                                        <div class="form-login form-login-thanhtoan">
+                                            <h4 class="text-center" style="margin: 15px 0">Thanh toán học phí</h4>
+                                            <div class="group">
+                                                <select class="input" id="LoaiThu" name="LoaiThu">
+
+                                                        <option value="2">Thu học phí, lệ phí</option>
+                                                </select>
+                                                <input autocomplete="new-password" class="input" id="UserName" name="UserName" placeholder="Nhập mã sinh viên" required="required" type="text" value="">
+                                                    <div>
+                                                        <div class="box-captcha"><style>.box-captcha{position:relative;height:37px}.box-captcha br{display:none}.box-captcha img{height:37px;position:absolute;top:0;left:160px}.box-captcha input{height:37px;position:absolute;left:0;top:0;width:125px;text-align:center}.box-captcha a{position:absolute;background:url(/Content/images/refresh.png) no-repeat;left:129px;top:7px;height:24px;width:24px;cursor:pointer;text-indent:-99965px;display:inherit!important}</style><div class="captchaContainer_ddb4d"><img border="0" class=" captcha-input imgcaptcha_ddb4d" float="left" href="javascript:void(0)" id="newcaptcha" src="./index/GetCaptcha" style="padding-right: 5px; max-height: 35px"></div><input class="captcha-input txtcaptcha_ddb4d" id="Captcha" name="Captcha" placeholder="Nhập mã" type="text"><a href="javascript:void(0)" class="captcharefresh refreshNewCaptcha_ddb4d"></a><script>$(function(){$('.refreshNewCaptcha_ddb4d').click(function(e){var a=$('.imgcaptcha_ddb4d'),n=a.attr('src');n=n.replace(/(.*?)\?r=\d+\.\d+$/,'$1'),'undefined'!=typeof console&&console.log(n);var c=new Image;$(c).load(function(){a.prev('.captchaContainer_ddb4d').empty().append(c)}),$('.imgcaptcha_ddb4d').attr('src',n+'?r='+Math.random()),e.preventDefault()})});</script></div>
+
+                                                        <div class="clearfix"></div>
+                                                    </div>
+                                            </div>
+                                            <input type="submit" class="button" value="Thanh toán">
+                                        </div>
+                                    </div>
+</form>                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div><input id="ASC-MC" name="ASC-MC" type="hidden" value="WEB138"></div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<script type="text/javascript">
+    var _0x2850 = ['click', 'preventDefault', 'submit', 'length', '#msg-login-fail', '<div\x20class=\x22k-callout\x20k-callout-n\x22></div></div>', '#div-errors', 'append', 'toggleClass', 'hide', 'show', 'keypress', 'btnLogin', '/Common/GetPrivateKey', 'get', 'val', 'ajax', 'getElementById', 'e84ad660c4721ae0e84ad660c4721ae0', 'parse', 'Hex', 'enc', 'Utf8', 'CryptographyPMT-EMS', 'mode', 'Pkcs7', 'pad', 'value', 'ciphertext', 'PBKDF2', 'toString', 'Base64', 'ready', '#form-login', 'css', 'border', '1px\x20solid\x20#ccc', '#Password', 'css', '#UserName', '1px\x20solid\x20red', 'UserName', 'function', 'trigger', '#btnLogin']; (function (_0x10e5ab, _0x1325fb) { var _0xcd89cd = function (_0x3e77ff) { while (--_0x3e77ff) { _0x10e5ab['push'](_0x10e5ab['shift']()); } }; _0xcd89cd(++_0x1325fb); }(_0x2850, 0xde)); var _0x50b8 = function (_0x323a59, _0x32df89) { _0x323a59 = _0x323a59 - 0x0; var _0x55aa14 = _0x2850[_0x323a59]; return _0x55aa14; }; function triggerOnEnter(_0x115e37, _0x4f3899, _0x9a95b9) { if (_0x115e37['keyCode'] == 0xd) { if (typeof _0x9a95b9 != _0x50b8('0x0')) { $('#' + _0x4f3899)[_0x50b8('0x1')](_0x9a95b9); } else { _0x9a95b9(); } } } $(_0x50b8('0x2'))[_0x50b8('0x3')](function (_0x32630d) { _0x32630d[_0x50b8('0x4')](); $('#form-login')[_0x50b8('0x5')](); }); function onAjaxFailure(_0x4343b6) { showDefaultErrorMessage(); } function onAjaxSuccess(_0x53be0e) { var _0x2930fa = getErrors(_0x53be0e); if (_0x2930fa[_0x50b8('0x6')] > 0x0) { if ($(_0x50b8('0x7'))[_0x50b8('0x6')] == 0x0) { var _0x3a3db6 = '<div\x20class=\x22k-invalid-msg\x20field-validation-error\x20hide\x22\x20style=\x22display:\x20block;\x22\x20id=\x22msg-login-fail\x22\x20role=\x22alert\x22>\x20' + _0x2930fa + _0x50b8('0x8'); $(_0x50b8('0x9'))[_0x50b8('0xa')](_0x3a3db6); } $(_0x50b8('0x7'))[_0x50b8('0xb')](_0x50b8('0xc'), ![])[_0x50b8('0xd')](); $(_0x50b8('0x7'))['html'](_0x2930fa); } else { location['href'] = ''; } } $('#UserName\x20,\x20#Password')['on'](_0x50b8('0xe'), function (_0x544b45) { if (this['value'] != '') { triggerOnEnter(_0x544b45, _0x50b8('0xf'), 'click'); } }); var _0x6100 = ['', _0x50b8('0x10'), _0x50b8('0x11'), _0x50b8('0x12'), '#', _0x50b8('0x13'), _0x50b8('0x14'), _0x50b8('0x15'), _0x50b8('0x16'), _0x50b8('0x17'), _0x50b8('0x18'), _0x50b8('0x19'), _0x50b8('0x1a'), 'CBC', _0x50b8('0x1b'), _0x50b8('0x1c'), _0x50b8('0x1d'), 'encrypt', 'AES', _0x50b8('0x1e'), _0x50b8('0x1f')]; function GetPrivateKey(_0x1bd14c, _0x340599) { var _0x27f4ba = _0x6100[0x0]; $[_0x6100[0x5]]({ 'url': _0x6100[0x1], 'type': _0x6100[0x2], 'data': { 'salt': $(_0x6100[0x4] + _0x340599)[_0x6100[0x3]]() }, 'success': function (_0xe2d567) { _0x27f4ba = _0xe2d567; }, 'async': ![] }); return _0x27f4ba; } function PMTEncryptData(_0x4bd137, _0x58954) { var _0x4fec52 = $(_0x6100[0x4] + _0x58954)[_0x6100[0x3]](); var _0x32c2a1 = document[_0x6100[0x6]](_0x58954); var _0x167640 = $(_0x6100[0x4] + _0x4bd137)[_0x6100[0x3]](); try { var _0x14014c = CryptoJS[_0x6100[0xa]][_0x6100[0x9]][_0x6100[0x8]](_0x6100[0x7]); var _0x2c9ec6 = CryptoJS[_0x6100[0xa]][_0x6100[0xb]][_0x6100[0x8]](GetPrivateKey(_0x167640, _0x4bd137)); var _0x4d598c = CryptoJS[_0x6100[0xa]][_0x6100[0xb]][_0x6100[0x8]](_0x6100[0xc]); var _0x5638c7 = CryptoJS[_0x50b8('0x20')](_0x2c9ec6[_0x50b8('0x21')](CryptoJS[_0x6100[0xa]][_0x50b8('0x19')]), _0x4d598c, { 'keySize': 0x80 / 0x20, 'iterations': 0x3e8 }); var _0x8d121f = CryptoJS[_0x6100[0x12]][_0x6100[0x11]](_0x4fec52, _0x5638c7, { 'mode': CryptoJS[_0x6100[0xe]][_0x6100[0xd]], 'iv': _0x14014c, 'padding': CryptoJS[_0x6100[0x10]][_0x6100[0xf]] }); _0x32c2a1[_0x6100[0x13]] = _0x8d121f[_0x6100[0x14]][_0x50b8('0x21')](CryptoJS[_0x6100[0xa]][_0x50b8('0x22')]); } catch (_0x2ca10d) { return _0x6100[0x0]; }; } $(document)[_0x50b8('0x23')](function () { $(_0x50b8('0x24'))['submit'](function () { var _0x3707c1 = 0x0; $('#UserName')[_0x50b8('0x25')](_0x50b8('0x26'), _0x50b8('0x27')); $(_0x50b8('0x28'))[_0x50b8('0x29')]('border', _0x50b8('0x27')); if ($(_0x50b8('0x2a'))[_0x50b8('0x12')]() == '') { $(_0x50b8('0x2a'))['css'](_0x50b8('0x26'), '1px\x20solid\x20red'); _0x3707c1 = 0x1; } if ($('#Password')['val']() == '') { $('#Password')[_0x50b8('0x29')]('border', _0x50b8('0x2b')); _0x3707c1 = 0x1; } if (_0x3707c1 == 0x1) { return ![]; } PMTEncryptData(_0x50b8('0x2c'), 'Password'); }); });
+    if (typeof (Storage) !== "undefined") {
+        var storageKey = 'tabs';
+        localStorage.removeItem(storageKey);
+    }
+
+    $(document).ready(function () {
+        $('#LoaiThu').val(2);
+        $('#LoaiThu').on('change', function (e) {
+            var valueSelected = this.value;
+            if (valueSelected == 1) {
+                $('.form-login-thanhtoan #UserName').attr('placeholder', 'Nhập mã hồ sơ thí sinh');
+            } else if (valueSelected == 9) {
+                $('.form-login-thanhtoan #UserName').attr('placeholder', 'Nhập mã nội trú');
+            } else {
+                $('.form-login-thanhtoan #UserName').attr('placeholder', 'Nhập m&#227; sinh vi&#234;n');
+            }
+        });
+    });
+    function loadingMaskEx(value) {
+        if (value) {
+            var html = '<div class="k-loading-mask" style="width: 100%;height: 100%;top: 0px;left: 0px;z-index: 100000;display: block;background-color: #607d8b2b;"><i class="fa fa-spinner fa-pulse fa-3x fa-fw" style="position:absolute;top:10px;left:50%;color:#397FAE;margin-top:20%;margin-left:-45px;font-size:90px;"></i></div>';
+            $(html).appendTo(document.body);
+        } else {
+            $(".k-loading-mask").remove();
+        }
+    }
+
+
+    // fncSearch()
+
+    $("#keyWord").on('keydown', function (e) {
+        if (e.key === 'Enter' || e.keyCode === 13) {
+            e.preventDefault();
+            fncSearch();
+        }
+    });
+    function fncSearch() {
+        var keyWord = $("#keyWord").val();
+        $('#ViewDanhSachTinTuc').html("");
+        var params = {
+            ViewName: "ViewLogin_TinTucSinhVien",
+            IsNew: null,
+            IsNoiBat: null,
+            IsXemNhieu: null,
+            ExcludeID: null,
+            ListIDDanhMuc: null,
+            Keyword: keyWord,
+            PageNumber: 1,
+            PageSize: 10,
+            CssClass: null,
+        };
+        $.ajax({
+            url: "SinhVienTinTuc/GetTinForWeb_PageLogin",
+            type: 'POST',
+            dataType: 'html',
+            data: { param: params },
+            beforeSend: function () {
+                loadingMaskEx(1)
+            },
+            success: function (data) {
+                loadingMaskEx(0)
+                $('#ViewDanhSachTinTuc').html(data);
+            },
+            error: function (err) {
+                loadingMaskEx(0)
+            }
+        });
+    }
+    function searchTinTuc() {
+        var keyWord = $("#pKeyWord").val();
+        var idDanhMuc = $("#pIDDanhMuc").val();
+        var ngayTaoTu = $("#pNgayTaoTu").val();
+        var ngayTaoDen = $("#pNgayTaoDen").val();
+        var trangThai = $("#pTrangThai").val();
+        $('#ViewDanhSachTinTuc').html("");
+        var params = {
+            ViewName: "ViewLogin_TinTucSinhVien",
+            IsNew: null,
+            IsNoiBat: null,
+            IsXemNhieu: null,
+            ExcludeID: null,
+            ListIDDanhMuc: null,
+            Keyword: keyWord,
+            PageNumber: 1,
+            PageSize: 10,
+            CssClass: null,
+            IDDanhMuc: idDanhMuc,
+            NgayTaoTu: ngayTaoTu,
+            NgayTaoDen: ngayTaoDen,
+            IDTrangThai: trangThai,
+        };
+        $.ajax({
+            url: "SinhVienTinTuc/GetTinForWeb_PageLogin",
+            type: 'POST',
+            dataType: 'html',
+            data: { param: params },
+            beforeSend: function () {
+                loadingMaskEx(1)
+            },
+            success: function (data) {
+                loadingMaskEx(0)
+                $('#ViewDanhSachTinTuc').html(data);
+            },
+            error: function (err) {
+                loadingMaskEx(0)
+            }
+        });
+    }
+</script>
+
+<script type="text/javascript">
+    (function () {
+        var attachAttempts = 0;
+        var activePendingKey = null;
+        var portalSessionRequestPending = false;
+        var initialPendingKey = '';
+        var popupCssUrl = '/Content/ThemeMXH/css/jquery-confirm.min.css';
+        var popupScriptUrl = '/Scripts/jquery-confirm.min.js';
+
+        function isSystemPopupAvailable() {
+            return typeof window.jQuery === "function" &&
+                typeof window.jQuery.confirm === "function" &&
+                typeof window.jQuery.alert === "function";
+        }
+
+        function showFallbackMessage(message) {
+            var errorContainer = document.getElementById("portal-session-confirmation-error");
+            if (!errorContainer) {
+                errorContainer = document.createElement("div");
+                errorContainer.id = "portal-session-confirmation-error";
+                errorContainer.className = "alert alert-danger";
+                errorContainer.setAttribute("role", "alert");
+                document.body.insertBefore(errorContainer, document.body.firstChild);
+            }
+
+            if (typeof errorContainer.textContent !== "undefined") {
+                errorContainer.textContent = message;
+            } else {
+                errorContainer.innerText = message;
+            }
+        }
+
+        function completePopupAssetLoad(isReady) {
+            var callbacks = window.portalSessionPopupCallbacks || [];
+            window.portalSessionPopupCallbacks = [];
+            window.portalSessionPopupAssetsLoading = false;
+
+            for (var index = 0; index < callbacks.length; index++) {
+                callbacks[index](isReady);
+            }
+        }
+
+        function ensureSystemPopup(callback) {
+            if (isSystemPopupAvailable()) {
+                callback(true);
+                return;
+            }
+
+            if (typeof window.jQuery !== "function") {
+                callback(false);
+                return;
+            }
+
+            window.portalSessionPopupCallbacks = window.portalSessionPopupCallbacks || [];
+            window.portalSessionPopupCallbacks.push(callback);
+
+            if (window.portalSessionPopupAssetsLoading) {
+                return;
+            }
+
+            window.portalSessionPopupAssetsLoading = true;
+
+            if (!document.getElementById("portal-session-confirmation-css")) {
+                var popupCss = document.createElement("link");
+                popupCss.id = "portal-session-confirmation-css";
+                popupCss.rel = "stylesheet";
+                popupCss.href = popupCssUrl;
+                document.getElementsByTagName("head")[0].appendChild(popupCss);
+            }
+
+            var popupScript = document.getElementById("portal-session-confirmation-script");
+            if (!popupScript) {
+                popupScript = document.createElement("script");
+                popupScript.id = "portal-session-confirmation-script";
+                popupScript.type = "text/javascript";
+                popupScript.src = popupScriptUrl;
+            }
+
+            popupScript.onload = function () {
+                completePopupAssetLoad(isSystemPopupAvailable());
+            };
+            popupScript.onerror = function () {
+                completePopupAssetLoad(false);
+            };
+
+            if (!popupScript.parentNode) {
+                document.getElementsByTagName("head")[0].appendChild(popupScript);
+            }
+        }
+
+        function escapePopupContent(message) {
+            return $("<div />").text(message || "").html();
+        }
+
+        function showPortalSessionMessage(message) {
+            ensureSystemPopup(function (isReady) {
+                if (!isReady) {
+                    showFallbackMessage(message);
+                    return;
+                }
+
+                $.alert({
+                    title: "Thông báo",
+                    content: escapePopupContent(message),
+                    type: "red",
+                    buttons: {
+                        close: {
+                            text: "Đóng"
+                        }
+                    }
+                });
+            });
+        }
+
+        function closeDialog(dialog) {
+            if (dialog && typeof dialog.close === "function") {
+                dialog.close();
+            }
+        }
+
+        function disableDialogButtons(dialog) {
+            if (!dialog || !dialog.buttons) {
+                return;
+            }
+
+            if (dialog.buttons.confirm) {
+                dialog.buttons.confirm.disable();
+            }
+
+            if (dialog.buttons.cancel) {
+                dialog.buttons.cancel.disable();
+            }
+        }
+
+        function submitPortalSessionDecision(isConfirmed, pendingKey, dialog) {
+            if (portalSessionRequestPending) {
+                return;
+            }
+
+            var requestVerificationToken = $('input[name="__RequestVerificationToken"]').first().val();
+            if (!requestVerificationToken) {
+                activePendingKey = null;
+                closeDialog(dialog);
+                showPortalSessionMessage("Không tìm thấy thông tin xác thực yêu cầu đăng nhập.");
+                return;
+            }
+
+            portalSessionRequestPending = true;
+            disableDialogButtons(dialog);
+
+            $.ajax({
+                url: isConfirmed ? '/SinhVien/ConfirmPortalSession' : '/SinhVien/CancelPortalSession',
+                type: "POST",
+                dataType: "json",
+                data: {
+                    __RequestVerificationToken: requestVerificationToken,
+                    pendingKey: pendingKey
+                },
+                success: function (result) {
+                    if (result && result.Success && result.RedirectUrl) {
+                        window.location.href = result.RedirectUrl;
+                        return;
+                    }
+
+                    closeDialog(dialog);
+                    showPortalSessionMessage(result && result.Message ? result.Message : "Không thể xử lý yêu cầu đăng nhập.");
+                },
+                error: function () {
+                    closeDialog(dialog);
+                    showPortalSessionMessage("Không thể xử lý yêu cầu đăng nhập. Vui lòng thử lại.");
+                },
+                complete: function () {
+                    portalSessionRequestPending = false;
+                    activePendingKey = null;
+                }
+            });
+        }
+
+        function handlePortalSessionConfirmation(response) {
+            if (!response || !response.RequirePortalSessionConfirmation) {
+                return false;
+            }
+
+            if (!response.PendingKey) {
+                showPortalSessionMessage("Yêu cầu xác nhận đăng nhập đã hết hạn.");
+                return true;
+            }
+
+            if (portalSessionRequestPending || activePendingKey) {
+                return true;
+            }
+
+            activePendingKey = response.PendingKey;
+            ensureSystemPopup(function (isReady) {
+                if (!isReady) {
+                    activePendingKey = null;
+                    showFallbackMessage("Không thể hiển thị hộp thoại xác nhận đăng nhập. Vui lòng tải lại trang và thử lại.");
+                    return;
+                }
+
+                $.confirm({
+                    title: "Xác nhận đăng nhập",
+                    content: "Tài khoản đang đăng nhập ở thiết bị khác. Bạn có muốn đăng nhập tại thiết bị này không?",
+                    type: "orange",
+                    backgroundDismiss: false,
+                    escapeKey: false,
+                    closeIcon: false,
+                    buttons: {
+                        cancel: {
+                            text: "Không đồng ý",
+                            action: function () {
+                                submitPortalSessionDecision(false, response.PendingKey, this);
+                                return false;
+                            }
+                        },
+                        confirm: {
+                            text: "Đồng ý",
+                            btnClass: "btn-primary",
+                            action: function () {
+                                submitPortalSessionDecision(true, response.PendingKey, this);
+                                return false;
+                            }
+                        }
+                    }
+                });
+            });
+
+            return true;
+        }
+
+        function attachPortalSessionConfirmation() {
+            if (typeof window.onAjaxSuccess !== "function") {
+                if (attachAttempts++ < 20) {
+                    window.setTimeout(attachPortalSessionConfirmation, 50);
+                }
+                return;
+            }
+
+            if (window.portalSessionConfirmationAttached) {
+                return;
+            }
+
+            window.portalSessionConfirmationAttached = true;
+            var originalOnAjaxSuccess = window.onAjaxSuccess;
+
+            window.onAjaxSuccess = function () {
+                var response = arguments[0];
+                if (typeof response === "string") {
+                    try {
+                        response = JSON.parse(response);
+                    } catch (error) {
+                        response = null;
+                    }
+                }
+
+                if (!handlePortalSessionConfirmation(response)) {
+                    return originalOnAjaxSuccess.apply(this, arguments);
+                }
+            };
+        }
+
+        attachPortalSessionConfirmation();
+
+        if (initialPendingKey && typeof window.jQuery === "function") {
+            $(function () {
+                handlePortalSessionConfirmation({
+                    RequirePortalSessionConfirmation: true,
+                    PendingKey: initialPendingKey
+                });
+            });
+        }
+    })();
+</script>
+
+<script type="text/javascript" src="./index/lang.js.download"></script>
+
+        </div>
+    </main>
+
+        <div id="footer-hotline">
+            <div class="container">
+                <div class="copyright">
+                    <p>Mọi thắc mắc về hệ thống&nbsp;cần được giải đáp vui lòng liên hệ hotline <strong>(024)38630001</strong> hoặc Email :<strong>ttcntt@huce.edu.vn</strong></p>
+<!-- Facebook Pixel Code --><!-- Google tag (gtag.js) -->
+                </div>
+            </div>
+        </div>
+    
+
+
+
+<div aria-hidden="true" class="k-calendar-container k-popup k-group k-reset" id="pNgayTaoTu_dateview" data-role="popup" style="display: none; position: absolute;"></div><div aria-hidden="true" class="k-calendar-container k-popup k-group k-reset" id="pNgayTaoDen_dateview" data-role="popup" style="display: none; position: absolute;"></div></body></html>

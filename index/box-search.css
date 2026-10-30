@@ -1,0 +1,55 @@
+﻿
+
+#box-search-hide {
+    display: none
+}
+
+.btn-hide-search {
+    border-color: #8dacbf;
+    height: 30px;
+}
+
+    .btn-hide-search:before {
+        content: url(../img/sort-asc.png);
+    }
+
+    .btn-hide-search:after {
+        content: "Tìm kiếm";
+        position: relative;
+        top: -6px;
+        margin-left: 3px;
+        font-size: 12px;
+    }
+
+    .btn-hide-search.Open:before {
+        content: url(../img/sort-desc.png);
+    }
+
+    .btn-hide-search.Open:after {
+        content: "Ẩn tìm kiếm";
+        position: relative;
+        top: -6px;
+        margin-left: 3px;
+        font-size:12px;
+    }
+
+#box-search-hide-extend {
+    display: none
+}
+
+.btn-hide-search-extend {
+    border-color: #8dacbf;
+    height: 30px;
+}
+
+    .btn-hide-search-extend:before {
+        content: url(../img/sort-asc.png) !important;
+    }
+
+    .btn-hide-search-extend.Open:before {
+        content: url(../img/sort-desc.png) !important;
+    }
+
+.box-search .btn-hide-search {
+    color: black;
+}
